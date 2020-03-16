@@ -2,7 +2,6 @@ package com.mylaurier.wilm8026.basiccarder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     public int Count = 0;
     static int cardsOut = 0;
     static int decks = 6;
+    //do i have git push working?
     @SuppressWarnings("RedundantCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
